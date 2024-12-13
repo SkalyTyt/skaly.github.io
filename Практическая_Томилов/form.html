@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Написать нам</title>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="video/video2.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="wrapper">
+        <header class="clearfix">
+            <a href="index.html" id="logo"><i><span class="pink">Fight</span> <span class="black">club</span></i></a>
+            <nav id="mainnav">
+            <ul>
+                <li><a href="uslugi.html">Услуги</a></li>
+                <li><a href="aboutus.html">О нас</a></li>
+                <li><a href="clients.html">Клиенты</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" id="contact-form"> 
+                <div class="form_item"> 
+                    <label for="topic">Тема</label> <br> 
+                    <select name="topic" id="topic"> 
+                        <option value="1">Заказать услугу</option> 
+                        <option value="2">Оставить отзыв/замечание</option> 
+                        <option value="3">Предложить сотрудничество</option> 
+                        <option value="4">Другое</option> 
+                    </select> 
+                </div> 
+                <div class="form_item"> 
+                    <label for="name">Имя</label><br> 
+                    <input name="name" id="name" type="text" placeholder="введи Имя" required> 
+                </div> 
+                <div class="form_item"> 
+                    <label for="name">E-mail</label><br> 
+                    <input name="name" id="name" type="email" placeholder="почта" required> 
+                </div> 
+                <div class="form_item"> 
+                    <label for="name">Телефон</label><br> 
+                    <input name="name" id="name" type="tel" placeholder="телефон" required> 
+                </div> 
+                <div class="form_item"> 
+                    <label for="Text1">Текст сообщения</label><br> 
+                    <textarea name="Text1" cols="40" rows="5" placeholder="Пиши сюда" required></textarea> 
+                </div> 
+                <div class="form_item"> 
+                    <input type="submit"> 
+                </div> 
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p class="footer__block">Написать нам&#9650;</p>
+        <p class="footer__block">&copy; Новая компания</p>
+        <div class="footer__icon">
+            <a href=""><img src="img/mailru.png" alt="mail" class="footer__img" target= "_blank"></a>
+            <a href=""><img src="img/ok.png" alt="ok" class="footer__img" target= "_blank" ></a>
+            <a href=""><img src="img/vk.png" alt="vk" class="footer__img" target= "_blank" ></a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
